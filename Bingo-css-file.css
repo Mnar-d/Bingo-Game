@@ -1,0 +1,173 @@
+
+body,
+html {
+    height: 100%;
+}
+
+/* .relative{
+    position:relative;
+    
+}
+
+.absolute{
+    position:absolute;
+} */
+
+:root{
+    background-color: #feff99;
+    /* background-image: url(background-1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace ;
+    max-width: 75vw;
+    margin: auto;
+    cursor: pointer;
+    
+    
+}
+
+.image-header{
+    margin-top: 3%;
+    margin-bottom: 7%;
+
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    /* width: auto; */
+
+    max-width: 75vw;
+    margin-bottom: 70px;
+}
+
+.container-1{
+    /* width: 25vw; */
+    justify-content: center;
+    /* height: 55vh; */
+    display: grid;
+    /* grid-template-columns:repeat(4 , 50vw) ; */
+    grid-template-rows: repeat(5 , 50vw);
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    /* align-content: center; */
+    background-color: #98cbc2 ;
+    border: 20px #98cbc2 solid;
+    /* grid-column-gap:10px; */
+    
+    
+}
+
+.container-2{
+    /* width: 25vw; */
+    justify-content: center;
+    /* height: 55vh; */
+    display: grid;
+    grid-template-columns:repeat(4 , 100px) ;
+    grid-template-rows: repeat(5 , 100px);
+    /* align-content: center; */
+    background-color: #98cbc2 ;
+    border: 20px #98cbc2 solid;
+    /* grid-column-gap: 10px; */
+
+}
+
+.bingo-word{
+    color: #ffffff;
+    text-align: center;
+    grid-column: span 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 90px;
+    border-bottom:4px #fff solid;
+}
+
+.bingo-word h1{
+    margin: 25px;
+    font-size: 50px;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 100%;
+    border:none;
+    margin: 5px;
+    position: relative;
+    /* font-weight: bold; */
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:#46458a;
+
+}
+
+.control-table{
+    /* grid-area: c; */
+    /* width: 30vw; */
+    margin: auto;
+    justify-content: center;
+    height: 55vh;
+    display: grid;
+    grid-template-columns:repeat(1 , auto) ;
+    grid-template-rows: repeat(2 , auto);
+    align-content: center;
+    grid-gap: 25px;
+    /* border: 1px black solid; */
+    
+    
+}
+
+.item-start{
+    width: 20vw;
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    background-color:#e72619;
+    color: #fff;
+    /* border:4px #fff solid; */
+    
+    
+}
+
+.item-winer{
+    width: 20vw;
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    background-color:#8e8e8e79 ;
+    color: #fff;
+    /* border:4px #fff solid; */
+    
+    
+}
+
+.text-shape h3{
+    font-size: 40px;
+    text-align: center;
+    /* border: 1px black solid; */
+    
+}
+
+.game-rule{
+    background-color:#fff ;
+    border: 1px white solid;
+    padding: 20px;
+    margin-bottom: 35px;
+
+}
+#copyright-text{
+    text-align: center;
+}
+.number-1{
+    
+}
+
+#n1{
+    
+}
